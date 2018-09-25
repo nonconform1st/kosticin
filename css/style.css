@@ -1,0 +1,17 @@
+/* MAIN MENU */
+.menu{}
+
+.menu__logo{
+    margin-top: 10px;
+    width: 320px;
+    margin-bottom: 12px;
+}
+.menu__tabs{
+    display: flex;
+    
+    justify-content: center;
+}
+.menu__tab{
+    list-style: none;
+    display: inline-block;
+}
