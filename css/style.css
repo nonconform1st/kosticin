@@ -1,5 +1,4 @@
 /* MAIN MENU */
-.menu{}
 
 .menu__logo{
     margin-top: 10px;
@@ -8,10 +7,21 @@
 }
 .menu__tabs{
     display: flex;
-    
     justify-content: center;
 }
-.menu__tab{
+.menu__tab, .menu__tab:hover{
     list-style: none;
     display: inline-block;
+    margin: 0 13px 13px 13px;
+    color: #393939;
+    font-family: 'Lato';
+}
+
+
+/* HEADER */
+
+.head{
+    height: 670px;
+    background: url(../img/head_bg.jpg) no-repeat center;
+    background-size: cover;
 }
