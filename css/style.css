@@ -25,3 +25,34 @@
     background: url(../img/head_bg.jpg) no-repeat center;
     background-size: cover;
 }
+.head__title{
+    font: 400 92px/0.9 'Minion';
+    color: #6A4520;
+    padding-top: 110px;
+}
+.title__break{
+    display: none;
+}
+.head__subtitle{
+    font: italic normal 24px/28px 'Lato';
+    color: #5a4735;
+    padding-top: 20px;
+    width: 60%;
+}
+
+.head__consult-btn, .head__consult-btn:hover{
+    display: inline-block;
+    padding: 18px;
+    font: 19px 'Lato';
+    margin-top: 40px;
+    border-radius: 7px;
+    box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+    background: #B99B65;
+}
+.head__consult-btn:hover{
+    background: #a18653;
+    margin-top: 35px;
+}
