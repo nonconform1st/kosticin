@@ -16,7 +16,6 @@
 }
 @media (max-width : 992px){
     .head{
-        /* height: 500px; */
         background-position: 60% 0;
     }
     .head__title{
@@ -40,6 +39,23 @@
     }
     .head__consult-btn{ margin-top: 30px; }
     .title__break{display: block;}
+    
+    .who__img-wrapper {
+        width: 140px;
+        height: 140px;
+    }
+    .who__img {
+        width: 140px;
+        height: 140px;
+    }
+    .who__name {
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .who__learn-more {
+        font-size: 20px;
+    }
+
 }
 @media (max-width : 500px){
     .head{
@@ -55,6 +71,26 @@
         padding-top: 40px;
     }
     .title__break{display: none;}
+
+    .heading-wrap {
+        margin: 55px auto;
+        text-align: center;
+        padding-bottom: 10px;
+        max-width: 300px;
+        border-bottom: 1px solid #ccc;
+        position: relative;
+    }
+    .heading {
+        font-size: 42px;
+    }
+    .heading-wrap:after {
+        bottom: -3px;
+        right: calc(50% - 30px);
+        width: 60px;
+        height: 6px;
+        background-color: #9C865F;
+    }
+
 }
 @media (max-width : 410px){
     .head__title{
@@ -66,7 +102,7 @@
         padding-top: 25px;
     }
 }
-@media (max-width : 350px){
+@media (max-width : 355px){
     .head__title{
         font-size: 35px;
     }
@@ -74,4 +110,23 @@
         font-size: 19px;
     }
     .head__consult-btn{width: 100%; text-align: center;}
+
+    .who__learn-more {
+        font-size: 18px;
+    }
+
+    .who__img-wrapper {
+        width: 120px;
+        height: 120px;
+    }
+    .who__img {
+        width: 120px;
+        height: 120px;
+    }
+
+}
+@media (max-width : 330px){
+    .who__icon{
+        display: none;
+    }
 }
