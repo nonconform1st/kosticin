@@ -56,3 +56,84 @@
     background: #a18653;
     margin-top: 35px;
 }
+
+
+/* HEADING */
+
+.heading-wrap{
+    margin: 90px auto;
+    text-align: center;
+    padding-bottom: 20px;
+    max-width: 460px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.heading-wrap:after{
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    right: calc(50% - 43px);
+    width: 86px;
+    height: 9px;
+    background-color: #9C865F;
+}
+.heading{
+    font: 50px/1 'Minion';
+    color: #383838;
+}
+
+
+/* WHO BLOCK */
+
+.who__person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.who__img-wrapper {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.who__img {
+    width: 180px;
+    height: 180px;
+}
+
+.who__name{
+    font: 500 28px/1 'Minion';
+    padding-top: 33px;
+    padding-bottom: 20px;
+    color: #A68F65;
+}
+.who__learn-more{
+    color: #444;
+    font: 200 22px 'Lato';
+    padding-bottom: 3px;
+    border-bottom: 1px dashed #444;
+    cursor: pointer;
+}
+.who__icon{
+    width: 9px;
+    transition: 0.4s;
+}
+.who__learn-more.opened .who__icon{
+    transform: rotate(180deg);
+}
+
+.who__details-wrapper{
+    width: 320px;
+    display: none;
+    margin: 30px auto 30px;
+}
+.who__detail-title{
+    font: 16px 'Minion';
+    text-transform: uppercase;
+    padding-top: 17px;
+}
+.who__detail{
+    font: 20px 'Lato';
+    color: #393939;
+    padding-top: 17px;
+}
