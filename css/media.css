@@ -13,7 +13,16 @@
         padding-top: 80px;
         font-size: 80px;
     }
+    .service__card-wrap{
+        height: 250px;
+        margin: 15px;
+    }
+    .service__card-description{
+        height: 250px;
+        line-height: 1.2;
+    }
 }
+
 @media (max-width : 992px){
     .head{
         background-position: 60% 0;
@@ -25,8 +34,23 @@
     .head__subtitle{
         font-size: 20px;
     }
+    .service__card-wrap{
+        margin: 15px 0;
+        height: 210px;
+    }
+    .service__card-title {
+        font: 600 25px/28px 'Minion';
+        padding: 10px;
+        
+    }
+    .service__card-description {
+        height: 210px;
+        padding: 15px;
+        font: 16px/1.11 'Lato';
+    }
 }
-@media (max-width : 760px){
+
+@media (max-width : 766px){
     .head__title{
         padding-top: 40px;
     }
@@ -56,7 +80,18 @@
         font-size: 20px;
     }
 
+    .service__card-wrap{
+        height: 240px;
+    }
+    .service__card-description {
+        height: 240px;
+        font: 17px/1.2 'Lato';
+    }
+    .service__card-title {
+        font: 600 27px/28px 'Minion';
+    }
 }
+
 @media (max-width : 500px){
     .head{
         background-position: 20% 0;
@@ -91,7 +126,20 @@
         background-color: #9C865F;
     }
 
+    .service__card-wrap{
+        height: 210px;
+        margin: 0;
+    }
+    .service__card-wrap br{ display: none; }
+    .service__card-description {
+        height: 210px;
+        font: 15px/1.1 'Lato';
+    }
+    .service__card{
+        padding: 0;
+    }
 }
+
 @media (max-width : 410px){
     .head__title{
         font-size: 40px;
@@ -101,9 +149,19 @@
         width: 100%;
         padding-top: 25px;
     }
+    .service__card-title{
+        word-wrap: break-word;
+        font: 600 24px/28px 'Minion';
+    }
+    .service__card-description {
+        height: 210px;
+        padding: 15px;
+        font: 16px/1.11 'Lato';
+    }
 }
+
 @media (max-width : 355px){
-    .head__title{
+    .head__title{   
         font-size: 35px;
     }
     .head__subtitle{
@@ -125,6 +183,7 @@
     }
 
 }
+
 @media (max-width : 330px){
     .who__icon{
         display: none;

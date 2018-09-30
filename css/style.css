@@ -122,7 +122,6 @@
 .who__learn-more.opened .who__icon{
     transform: rotate(180deg);
 }
-
 .who__details-wrapper{
     width: 320px;
     display: none;
@@ -137,4 +136,71 @@
     font: 20px 'Lato';
     color: #393939;
     padding-top: 17px;
+}
+
+
+/* SERVICES */
+
+.service__card-wrap{
+    margin: 20px;
+    background: linear-gradient(180deg, rgba(90, 71, 53, 0.75) 0%, rgba(90, 71, 53, 0) 100%), 
+                url(../img/serv1.jpg) no-repeat center; 
+    background-size: cover;
+    height: 290px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.service__card:nth-child(2) .service__card-wrap{
+    background: linear-gradient(180deg, rgba(90, 71, 53, 0.75) 0%, rgba(90, 71, 53, 0) 100%), 
+    url(../img/serv2.png) no-repeat center; 
+    background-size: cover;
+}
+.service__card:nth-child(3) .service__card-wrap{
+    background: linear-gradient(180deg, rgba(90, 71, 53, 0.75) 0%, rgba(90, 71, 53, 0) 100%), 
+    url(../img/serv3.png) no-repeat center; 
+    background-size: cover;
+}
+.service__card:nth-child(4) .service__card-wrap{
+    background: linear-gradient(180deg, rgba(90, 71, 53, 0.75) 0%, rgba(90, 71, 53, 0) 100%), 
+    url(../img/serv4.jpg) no-repeat center; 
+    background-size: cover;
+}
+.service__card:nth-child(5) .service__card-wrap{
+    background: linear-gradient(180deg, rgba(90, 71, 53, 0.75) 0%, rgba(90, 71, 53, 0) 100%), 
+    url(../img/serv5.jpg) no-repeat center; 
+    background-size: cover;
+}
+.service__card:nth-child(6) .service__card-wrap{
+    background: linear-gradient(180deg, rgba(90, 71, 53, 0.75) 0%, rgba(90, 71, 53, 0) 100%), 
+    url(../img/serv6.png) no-repeat center; 
+    background-size: cover;
+}
+.service__card:nth-child(7) .service__card-wrap{
+    background: linear-gradient(180deg, rgba(90, 71, 53, 0.75) 0%, rgba(90, 71, 53, 0) 100%), 
+    url(../img/serv7.jpg) no-repeat center; 
+    background-size: cover;
+}
+
+
+.service__card-title{
+    font: 600 32px/34px 'Minion';
+    color: #E8DCB4;
+    padding: 20px;
+}
+.service__card-description{
+    position: absolute;
+    top: 100%;
+    z-index: 100;
+    height: 290px;
+    padding: 20px;
+    background: #5A4735;
+    font: 18px/1.5 'Lato';
+    color: #E8DCB4;
+    transition: top 0.5s ease;
+    will-change: top;
+}
+.service__card-wrap:hover .service__card-description{
+    top: 0;
 }
