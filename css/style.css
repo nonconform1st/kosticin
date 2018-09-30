@@ -1,10 +1,11 @@
 /* MAIN MENU */
 
-.menu__logo{
-    margin-top: 10px;
-    width: 320px;
-    margin-bottom: 12px;
+.logo{
+    font-family: 'English 111 Vivace BT';
+    margin: 15px 0 17px 0;
+    font-size: 53px;
 }
+
 .menu__tabs{
     display: flex;
     justify-content: center;
@@ -203,4 +204,88 @@
 }
 .service__card-wrap:hover .service__card-description{
     top: 0;
+}
+
+
+/* CONTACTS */
+.contacts .container-fluid{
+    margin-top: -20px;
+}
+.contacts .container-fluid .row{
+    position: relative;
+}
+.cart{
+    padding: 0;
+}
+.cont-main{
+    background: #EDE5CA;
+    padding: 50px 100px 60px 70px;
+}
+
+.cont__img-wrapper {
+    width: 43px;
+    height: 43px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.cont__img {
+    width: 43px;
+    height: 43px;
+}
+
+.cont__person{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 36px;
+    align-items: flex-start;
+}
+.cont__name{
+    flex: 1;
+    font: 200 27px/43px 'Lato';
+    padding-left: 21px;
+    color: #383838;
+    height: 43px;
+}
+.cont__person-contacts{
+    font: 23px 'Lato';
+    text-align: right;
+    padding-top: 7px;
+    color: #5A4735;
+}
+.cont__person-phone{
+    padding-bottom: 20px;
+}
+.cont__person-email{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.address-title{
+    font: 200 27px 'Lato';
+    padding-bottom: 17px;
+    color: #383838;
+}
+.address-text{
+    font: italic 23px 'Lato';
+    color: #5A4735;
+}
+.cont__address{
+    position: absolute;
+    bottom: 60px;
+}
+
+
+/* FOOTER */
+
+.footer{
+    padding: 40px 100px;
+}
+.footer__text{
+    text-align: right;
+    font: 16px/19px 'Lato';
+    color: #888;
+}
+.footer__logo{
+    font-family: 'English 111 Vivace BT';
+    font-size: 37px;
 }

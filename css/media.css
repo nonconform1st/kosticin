@@ -21,6 +21,21 @@
         height: 250px;
         line-height: 1.2;
     }
+
+    .cont-main {
+        padding: 40px 60px 30px 40px;
+    }
+    .cont__person-contacts{
+        width: 100%;
+        text-align: left;
+    }
+    .cont__person-phone {
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .cont__person{
+        flex-wrap: wrap;
+    }
 }
 
 @media (max-width : 992px){
@@ -47,6 +62,19 @@
         height: 210px;
         padding: 15px;
         font: 16px/1.11 'Lato';
+    }
+    
+    .address-title{
+        font: 200 24px 'Lato';
+    }
+    .address-text{
+        font: italic 20px 'Lato';
+    }
+    .cont__person-contacts{
+        font: 22px 'Lato';
+    }
+    .footer{
+        padding: 40px 60px;
     }
 }
 
@@ -89,6 +117,13 @@
     }
     .service__card-title {
         font: 600 27px/28px 'Minion';
+    }
+
+    .cont__address{
+        position: static;
+    }
+    .footer{
+        padding: 30px 40px 10px;
     }
 }
 
@@ -138,6 +173,19 @@
     .service__card{
         padding: 0;
     }
+
+    .footer{
+        padding: 30px 20px 10px;
+    }
+    .footer .col-6{
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+    .footer__logo{
+        font-size: 32px;
+    }
 }
 
 @media (max-width : 410px){
@@ -181,11 +229,13 @@
         width: 120px;
         height: 120px;
     }
-
 }
 
 @media (max-width : 330px){
     .who__icon{
         display: none;
+    }
+    .menu__tab{
+        font-size: 15px;
     }
 }
